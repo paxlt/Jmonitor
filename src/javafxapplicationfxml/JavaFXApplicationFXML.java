@@ -82,7 +82,7 @@ public class JavaFXApplicationFXML extends Application {
         //MouseControlUtil.makeDraggable(circle1);
         //root.getChildren().add(circle1);
 
-        Scene scene = new Scene(root, 400, 400);
+        Scene scene = new Scene(root, 400, 401);
         scene.getStylesheets().add("javafxapplicationfxml/testcss.css");
         stage.setScene(scene);
         stage.show();
