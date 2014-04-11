@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+
+<Group xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<children>
+<Group>
+<children><Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="105.0" layoutX="-54.0" layoutY="3.0" stroke="BLACK" strokeType="INSIDE" width="411.0">
+<effect>
+<Lighting>
+<bumpInput>
+<Shadow />
+</bumpInput>
+</Lighting>
+</effect></Rectangle><Rectangle arcHeight="20.0" arcWidth="20.0" height="105.0" layoutX="73.0" layoutY="3.0" stroke="BLACK" strokeType="INSIDE" width="288.0">
+<fill>
+<LinearGradient endX="1.0" endY="1.0">
+<stops>
+<Stop color="#dce310" />
+<Stop color="WHITE" offset="1.0" />
+</stops>
+</LinearGradient>
+</fill>
+<effect>
+<Lighting>
+<bumpInput>
+<Shadow />
+</bumpInput>
+</Lighting>
+</effect></Rectangle><Group /><Rectangle arcHeight="10.0" arcWidth="10.0" fill="#2dff1f" height="23.0" layoutX="81.0" layoutY="31.0" stroke="BLACK" strokeType="INSIDE" width="21.0">
+<effect>
+<Lighting>
+<bumpInput>
+<Shadow />
+</bumpInput>
+</Lighting>
+</effect></Rectangle>
+<Rectangle arcHeight="10.0" arcWidth="10.0" fill="#2dff1f" height="23.0" layoutX="81.0" layoutY="57.0" stroke="BLACK" strokeType="INSIDE" width="21.0">
+<effect>
+<Lighting>
+<bumpInput>
+<Shadow />
+</bumpInput>
+</Lighting>
+</effect>
+</Rectangle>
+<Rectangle arcHeight="10.0" arcWidth="10.0" fill="#2dff1f" height="23.0" layoutX="81.0" layoutY="83.0" stroke="BLACK" strokeType="INSIDE" width="21.0">
+<effect>
+<Lighting>
+<bumpInput>
+<Shadow />
+</bumpInput>
+</Lighting>
+</effect>
+</Rectangle>
+<Rectangle arcHeight="10.0" arcWidth="10.0" fill="#2dff1f" height="23.0" layoutX="81.0" layoutY="6.0" stroke="BLACK" strokeType="INSIDE" width="21.0">
+<effect>
+<Lighting>
+<bumpInput>
+<Shadow />
+</bumpInput>
+</Lighting>
+</effect>
+</Rectangle><Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="53.0" layoutX="133.0" layoutY="28.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+</children>
+</Group>
+</children></Group>

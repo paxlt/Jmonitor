@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<ScrollPane prefHeight="340.0" prefViewportHeight="145.0" prefViewportWidth="81.7275390625" prefWidth="339.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplicationfxml.FXMLDocumentController">
+<content>
+<AnchorPane id="MainPane" fx:id="pane" prefHeight="449.0" prefWidth="449.0">
+<children><Rectangle fx:id="rect" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="49.0" layoutX="148.0" layoutY="156.0" stroke="BLACK" strokeType="INSIDE" width="77.0">
+<effect>
+<Lighting specularExponent="40.0">
+<bumpInput>
+<Shadow />
+</bumpInput>
+</Lighting>
+</effect></Rectangle>
+        <Button fx:id="button" layoutX="4.0" layoutY="67.0" onAction="#handleButtonAction" text="Press Me" />
+        <Label fx:id="label" layoutY="103.0" minHeight="16" minWidth="69" /><Button id="MyButton" fx:id="button2" layoutX="11.7275390625" layoutY="119.0" mnemonicParsing="false" onAction="#handleButtonAction2" text="Button2" />
+</children>
+</AnchorPane>
+</content>
+</ScrollPane>

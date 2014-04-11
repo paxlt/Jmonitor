@@ -1,0 +1,9 @@
+.circle1 {
+    -fx-background-color: #DDFFA4;
+}
+
+.circle1:hover {
+    //-fx-background-color: #9ACD32;
+    //-fx-fill:black
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
